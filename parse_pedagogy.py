@@ -1,5 +1,5 @@
-import json
-from bs4 import BeautifulSoup
+import json   #зависимось 
+from bs4 import BeautifulSoup   #зависимость
 
 # Здесь указываем, как найти карточки со статьями на странице
 CARD_SELECTOR = ".popular-article-wrap"
